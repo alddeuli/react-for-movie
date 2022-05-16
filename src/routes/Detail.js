@@ -22,6 +22,11 @@ function Detail() {
     getMovie();
   }, []);
 
+  // if (!loading) {
+  //   // 화면이동
+  //   return null;
+  // }
+
   return (
     <div>
       {loading ? <h1>Loading...</h1> : <a href={movie.url}>Detail View</a>}

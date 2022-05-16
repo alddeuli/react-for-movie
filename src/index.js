@@ -2,6 +2,7 @@ import React from "react";
 import ReactDOM from "react-dom";
 import App from "./App";
 // import CoinConverter from "./CoinConverter";
+import "./style.css";
 
 ReactDOM.render(
   // <React.StrictMode>
